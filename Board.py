@@ -1,2 +1,7 @@
-board = [["_" for a in range(3)] for b in range (3)]
-print(board)
+board = [['_', '_', '_'],
+         ['_', '_', '_'],
+         ['_', '_', '_'],]
+
+for row in board:
+    print(row)
+
